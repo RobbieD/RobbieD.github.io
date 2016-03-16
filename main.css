@@ -1,0 +1,189 @@
+
+@charset "utf-8";
+/* -----------
+    Components
+   ----------- */
+body
+{
+	width:100%;
+	margin:0px;
+	color:#FFFFFF;
+    font-family: "Lucida Sans Unicode", serif;
+	background-color:#464443;
+	color:#FFFFFF;
+	font-size:larger;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+p
+{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+h1
+{
+	color: #FFFFFF;
+    font-family: "Lucida Sans Unicode", serif;
+	font-weight: 600;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2
+{
+	color: #FFFFFF;
+    font-family: "Lucida Sans Unicode", serif;
+	font-weight: 600;
+	font-size: 35px;
+	text-align: center;
+	text-decoration:underline;
+}
+
+a
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #A5A5A5;
+}
+
+a:visited
+{
+	color: #A5A5A5;
+}
+
+a:hover, a:active, a:focus
+{
+	color: #656565;
+}
+
+article, aside, figure, footer, header, nav
+{
+	display: block;
+}
+
+/* ---------------
+	   Styles
+	-------------- */
+.fixed-nav-bar
+{
+	position: fixed;
+	top: 65px;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 15px;
+	background-color: #4D4D4D;
+}
+
+.fixed-footer-bar
+{
+	position: fixed;
+	bottom: 15px;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 22px;
+	background-color: #4D4D4D;
+}
+
+.title-bar
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 65px;
+	background-color: #4D4D4D;
+}
+
+#wrapper
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top
+{
+	margin-top: 0px;
+	padding-top: 105px;
+}
+
+#main
+{
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	float: left;
+	text-align: center;
+}
+
+#mainnav ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainnav a
+{
+	width: 20%;
+	display: block;
+	float: left;
+	background-color: #4D4D4D;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#mainnav a:hover, #mainnav a:focus, #mainnav a.thispage
+{
+	text-decoration: none;
+	background-color: #221E19;
+}
+
+#footnav ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footnav a
+{
+	width: 100%;
+	display: block;
+	float:center;
+	background-color: #4D4D4D;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
+
+#footnav a:hover, #mainnav a:focus
+{
+	text-decoration: none;
+	background-color: #221E19;
+}
+
+#bottom
+{
+	margin-bottom: 80px;
+}
