@@ -78,7 +78,7 @@ article, aside, figure, footer, header, nav
 	-------------- */
 .fixed-nav-bar
 {
-	position: fixed;
+	position: static;
 	top: 65px;
 	left: 0;
 	z-index: 9999;
